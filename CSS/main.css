@@ -1,0 +1,37 @@
+body {
+	background-image: url("rila_lakes.jpg");
+	background-repeat: no-repeat;
+}
+
+#title {
+	font-size: 30px;
+	color: white;
+	font-family: impact;
+	text-align: center;
+}
+
+#menu {
+	text-align: left;
+}
+
+#navigation {
+	padding-left: 10%;
+	padding-top: 4%;
+}
+
+#navigation .nav_item {
+	overflow: hidden;
+	display: inline;
+	font-size: 25px;
+	padding-right: 12%;
+}
+
+#navigation .nav_item a {
+	color: black;
+	text-decoration: none;
+}
+
+#navigation .nav_item a:hover {
+	color: #909096;
+}
+
