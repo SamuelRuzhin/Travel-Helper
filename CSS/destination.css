@@ -1,0 +1,76 @@
+body {
+	background-image: url("file:///Users/Samuel/Desktop/Workspace/web%20Development/Travel%20Helper/Pictures/rila_lakes.jpg");
+	background-repeat: no-repeat;
+}
+
+#title {
+	font-size: 30px;
+	color: white;
+	font-family: impact;
+	text-align: center;
+}
+
+#menu {
+	text-align: left;
+}
+
+#navigation {
+	padding-left: 10%;
+	padding-top: 4%;
+}
+
+#navigation .nav_item {
+	overflow: hidden;
+	display: inline;
+	font-size: 25px;
+	padding-right: 11%;
+}
+
+#navigation .nav_item a {
+	color: black;
+	text-decoration: none;
+	font-family: fantasy;
+	font-weight: bold;
+}
+
+#navigation .nav_item a:hover {
+	color: #909096;
+}
+
+#destination_form {
+	width: 30%;
+	height: 50%;
+
+	margin-top: 5%;
+	margin-left: 35%;
+
+	border: 2px solid black;
+}
+
+#destination_form h2 {
+	text-align: center;
+	margin-bottom: 0px;
+
+}
+
+#destination_form label {
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+
+	margin-top: 5%;
+	padding-bottom: 5px;
+}
+
+#destination_form select {
+	margin-left: 5%;
+	margin-right: 5%;
+
+	width: 90%;
+	height: 6%;
+
+	font-size: 12px;
+
+	background-color: rgba(255,255,255,0.5);
+}
