@@ -23,15 +23,21 @@ body {
 	overflow: hidden;
 	display: inline;
 	font-size: 25px;
-	padding-right: 12%;
+	padding-right: 11%;
 }
 
 #navigation .nav_item a {
 	color: black;
 	text-decoration: none;
+	font-family: fantasy;
+	font-weight: bold;
 }
 
 #navigation .nav_item a:hover {
 	color: #909096;
 }
+
+
+
+
 
