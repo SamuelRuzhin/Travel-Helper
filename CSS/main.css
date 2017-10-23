@@ -1,14 +1,17 @@
-body {
-	background-image: url("../Pictures/rila_lakes.jpg");
-	background-repeat: no-repeat;
-}
+
+/*---------->TITLE<------------*/
 
 #title {
-	font-size: 30px;
-	color: white;
-	font-family: impact;
-	text-align: center;
+	font-size: 17px;
+	color: black;
+	font-family:'Monoton';
+	text-align: left;
+	padding-left: 7%;
+	padding-top: 0.5px;
+	background-color: #e3e5e8;
 }
+
+/*---------------------> NAVIGATION <--------------*/
 
 #menu {
 	text-align: left;
@@ -16,20 +19,20 @@ body {
 
 #navigation {
 	padding-left: 10%;
-	padding-top: 4%;
+	padding-top: 2%;
 }
 
 #navigation .nav_item {
 	overflow: hidden;
 	display: inline;
 	font-size: 25px;
-	padding-right: 11%;
+	padding-right: 9%;
 }
 
 #navigation .nav_item a {
 	color: black;
 	text-decoration: none;
-	font-family: fantasy;
+	font-family: monospace;
 	font-weight: bold;
 }
 
@@ -37,6 +40,61 @@ body {
 	color: #909096;
 }
 
+/*----------------> BULGARIAN FLAG <---------------------*/
+
+#bulgaria_flag {
+	width: 100%;
+	height: 50%;
+}
+
+#image_bulgaria {
+	margin-top: 3%;
+	position: relative;
+	color: white;
+}
+
+#image_bulgaria .first_text {
+	position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+    font-size: 50px;
+}
+
+#image_bulgaria .second_text h2 {
+	position: absolute;
+	bottom: 0px;
+    left: 30%;
+
+    font-size: 50px;
+}
+
+/* -----------------> TOP DESTINATIONS TITLE <-------------------*/
+#top_destinations_title {
+	margin-top: 8%;
+}
+
+#top_destinations_title h2 {
+	text-align: center;
+	font-family: monospace;
+	font-style: italic;
+}
+
+/* -----------------> FRAME FOR DESTINATIONS <---------------- */
+
+#top_destinations {
+	margin: 4% 4% ;
+}
+
+#top_destinations .first_image {
+	float: left;
+}
+
+#top_destinations .second_image, .third_image, .fourth_image, .fifth_image {
+	padding-left: 3%;
+
+}
 
 
 
